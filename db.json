@@ -51,5 +51,32 @@
       "imageUrl": "https://res.cloudinary.com/djh0kp7rv/image/upload/v1781793046/m2inisgysjsbykc5x5cd.png"
     }
   ],
+    "users": [
+    {
+      "id": "user-admin-1",
+      "nom": "Admin Principal",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "user-four-1",
+      "nom": "Fournisseur Test",
+      "email": "fournisseur@example.com",
+      "password": "four123",
+      "role": "fournisseur"
+    }
+  ],
+  "fournisseurs": [
+    {
+      "id": "four-1",
+      "nom": "Fournisseur Test",
+      "telephone": "771234567",
+      "adresse": "Dakar",
+      "email": "fournisseur@example.com",
+      "userId": "user-four-1"
+    }
+  ],
+
   "$schema": "./node_modules/json-server/schema.json"
 }
