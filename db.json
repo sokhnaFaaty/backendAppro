@@ -65,16 +65,32 @@
       "email": "fournisseur@example.com",
       "password": "four123",
       "role": "fournisseur"
+    },
+        {
+      "id": "user-four-2",
+      "nom": "Faty",
+      "email": "faty@gmail.com",
+      "password": "faty123",
+      "role": "fournisseur"
     }
+
   ],
   "fournisseurs": [
     {
       "id": "four-1",
       "nom": "Fournisseur Test",
-      "telephone": "771234567",
+      "telephone": "777896789",
       "adresse": "Dakar",
       "email": "fournisseur@example.com",
       "userId": "user-four-1"
+    },
+        {
+      "id": "four-2",
+      "nom": "Faty",
+      "telephone": "785405593",
+      "adresse": "Dakar",
+      "email": "faty@gmail.com",
+      "userId": "user-four-2"
     }
   ],
 
